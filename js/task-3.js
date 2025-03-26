@@ -1,6 +1,5 @@
 // task-3.js
 
-// task-3.js
 
 const profile = {
   username: "Jacob",
