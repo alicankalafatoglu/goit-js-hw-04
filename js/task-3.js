@@ -1,20 +1,18 @@
-// task-3.js
-
-
 const profile = {
-  username: "Jacob",
+	username: "Jacob",
   playTime: 300,
-  
-  changeUsername(newName) {
+
+
+  changeUsername(newName){
     this.username = newName;
   },
-  
-  updatePlayTime(hours) {
-    this.playTime += hours;
+
+  updatePlayTime (times){
+    this.playTime += times;
   },
-  
-  getInfo() {
-    return `${this.username} has ${this.playTime} active hours!`;
+
+  getInfo(){
+        return `${this.username} has ${this.playTime} active hours!`;
   }
 };
 
